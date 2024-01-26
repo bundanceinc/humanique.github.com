@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3F5H8ST24"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-V3F5H8ST24');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Humanique - Your personal blood pressure diary to track and manage your health effectively.">
+    <meta name="keywords" content="Blood Pressure, Health Tracker, Blood Pressure Diary, Hypertension, Health App">
+    <meta name="author" content="Bundance, Inc.">
+    <title>Humanique - Blood Pressure Diary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FF3B30;
+            color: #FFFFFF;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 15px;
+            padding: 0 10%;
+            margin: 0px;
+        }
+
+        .logo {
+            margin-bottom: 32px;
+        }
+
+        h1 {
+            font-weight: 200;
+            font-size: 34px; 
+            line-height: 130%;
+        }
+
+        p {
+            font-size: 17px; 
+            font-weight: 300; /* Regular font weight for body text */
+            line-height: 140%; /* Increased line height for body text */
+        }
+
+        a {
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+
+        p.small-text a {
+            text-decoration: none;
+        }
+
+        p.small-text {
+            font-size: 13px; 
+            font-weight: 300; /* Regular font weight for body text */
+            line-height: 150%; /* Increased line height for body text */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 0 16px;
+        }
+
+        footer {
+            width: 100%;
+            text-align: left;
+        }
+
+        .content {
+            flex: 1;
+            min-width: 320px;
+            max-width: 545px;
+            /* padding-bottom: 88px; */
+            margin-right: 40px;
+        }
+
+        .preview {
+            flex: 1;
+            max-height: 675px;
+            max-width: 370px;
+        }
+
+        .preview img {
+            max-height: 675px;
+            max-width: 370px;
+        }
+
+        .badge {
+            margin-top: 48px;
+        }
+
+        .footer {
+            margin-top: 40px;
+        }
+
+        @media screen and (max-width: 950px) {
+            .preview {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="content">
+            <img src="docs/assets/logo.svg" width="200px" class="logo" />
+
+            <h1>Track your blood pressure, to help improve your health.</h1>
+            <p>One blood pressure measurement is a snapshot, nothing more than what your blood pressure is at that moment.</p>
+            <p>Keeping a <a href="https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home" target="_blank">blood pressure diary</a> helps tell a story, allowing your physician to provide you with the right treatments to <a href="https://www.health.harvard.edu/heart-health/the-benefits-of-do-it-yourself-blood-pressure-monitoring" target="_blank">improve your outcomes</a>.</p>
+
+            <p class="small-text badge">
+                <a href="https://apps.apple.com/us/app/simple-blood-pressure-tracker/id1662744765" target="_blank">
+                    <img src="docs/assets/badge.svg" height="54px" />
+                </a>
+            </p>
+
+            <p class="small-text"><a href="mailto:support@humanique.co">Have any questions about the app?</a></p>
+
+            <p class="small-text footer">&copy; 2024 Bundance, Inc.</p>
+        </div>
+        
+        <div class="preview">
+            <img src="docs/assets/preview@2x.png" />
+        </div>
+    </div>
+</body>
+
+</html>
